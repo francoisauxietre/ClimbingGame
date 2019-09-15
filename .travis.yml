@@ -12,6 +12,14 @@ addons:
       - google-chrome-stable
 
 
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+
 install:
   - npm install npm@latest -g
   - npm install coveralls
