@@ -1,8 +1,10 @@
 language: java
 
 os: osx
-# os :
 
+
+
+travis encrypt GITHUB_TOKEN=a2315d59b67d48504392775d48704be59ce866df
 
 addons:
   apt:
@@ -10,7 +12,6 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
-
 
 deploy:
   provider: pages
