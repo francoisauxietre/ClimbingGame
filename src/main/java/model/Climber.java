@@ -18,9 +18,9 @@ public class Climber {
 
     public Climber(String name) {
         this.name = name;
-        this.opens = new ArrayList<>();
-        this.realizations = new ArrayList<>();
-        this.friends = new ArrayList<>();
+        this.opens = new ArrayList<Route>();
+        this.realizations = new ArrayList<Route>();
+        this.friends = new ArrayList<Climber>();
 
     }
 
@@ -61,7 +61,7 @@ public class Climber {
     }
 
     @ManyToMany
-    @JoinTable( name = "FRIENDS")
+    @JoinTable
     public List<Climber> getFriends() {
         return friends;
     }
