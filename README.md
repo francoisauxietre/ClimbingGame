@@ -1,3 +1,10 @@
 # ClimbingGame
 The Climbers game
-[![Build Status](https://travis-ci.org/<github username>/<repo name>.svg?branch=master)](https://travis-ci.org/<github username>/<repo name>) [![Coverage Status](https://coveralls.io/repos/github/<github username>/<repo name>/badge.svg?branch=master)](https://coveralls.io/github/<github username>/<repo name>?branch=master)
+
+#badges travis build
+[![Build Status](https://travis-ci.org/francoisauxietre/ClimbingGame.svg?branch=master)](https://travis-ci.org/francoisauxietre/ClimbingGame)
+
+#badges coveralls
+
+[![Coverage Status](https://coveralls.io/github/francoisauxietre/ClimbingGame/badge.svg?branch=master)](https://coveralls.io/github/francoisauxietre/ClimbingGame)
+
